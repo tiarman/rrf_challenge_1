@@ -1,0 +1,173 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* h1{
+    font-size: 64px;
+    font-weight: 700;
+  }
+  h2{
+    font-size: 48px;
+    font-weight: 700;
+  }
+  h3{
+    font-size: 36px;
+    font-weight: 700;
+  }
+  h6{
+    font-size: 18px;
+    font-weight: 700;
+  } */
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media (min-width: 40rem) {
+  /* 640px */
+  .container {
+    max-width: 40rem;
+  }
+}
+
+@media (min-width: 48rem) {
+  /* 768px */
+  .container {
+    max-width: 48rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  /* 1024px */
+  .container {
+    max-width: 64rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  /* 1280px */
+  .container {
+    max-width: 80rem;
+  }
+}
+
+@media (min-width: 96rem) {
+  /* 1536px */
+  .container {
+    max-width: 96rem;
+  }
+}
+
+/* sm */
+@media (min-width: 640px) {
+  .sm\:text-xl {
+    font-size: 1.25rem; /* 20px */
+  }
+}
+
+/* md */
+@media (min-width: 768px) {
+  .md\:text-xl {
+    font-size: 1.5rem; /* 24px */
+  }
+}
+
+@media (max-width: 640px) {
+  .hide-on-small {
+    display: none;
+  }
+}
+
+/* Nave */
+.nav-text {
+  font-family: "Inter", sans-serif;
+}
+.header-container {
+  box-shadow: 2px 2px 12px 1px rgba(77, 96, 125, 0.08);
+}
+
+/* Hero section */
+.hero-bg {
+  background: url(./assets/images/hero-section/man.png) no-repeat;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+.hero-right {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.1);
+}
+
+.score-box-shadow {
+  box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.1);
+  border-radius: 10px;
+  background: #fff;
+  max-width: 1000px;
+}
+
+.programme-box {
+  border-radius: 16px;
+  background: #fff;
+
+  box-shadow: 0.914px 4.57px 45.7px 0px rgba(84, 99, 122, 0.1);
+}
+.alumini-box {
+  border-radius: 12px;
+  background: #fff;
+
+  box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.1);
+}
+.set-inter-font {
+  font-family: "Inter", sans-serif;
+}
+.roadmap-right {
+  border-radius: 8px;
+  background: #fff;
+
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.07);
+}
+.project-box {
+  border-radius: 5px;
+  background: #20ad96;
+
+  box-shadow: 0px 7px 29px 0px rgba(99, 99, 110, 0.2);
+}
+.project-box2 {
+  border-radius: 5px;
+  background: #9747ff;
+
+  box-shadow: 0px 7px 29px 0px rgba(99, 99, 110, 0.2);
+}
+.right-btw {
+  border-radius: 36px;
+  background: #fff;
+
+  box-shadow: 0px 0px 16px 4px rgba(126, 126, 126, 0.1);
+}
+.mentors-box {
+  border-radius: 0px 0px 10px 10px;
+  background: #fff;
+
+  box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.1);
+}
+.font-inter {
+  font-family: "Inter", sans-serif;
+}
+.font-popins {
+  font-family: "Inter", sans-serif;
+}
+.review-align {
+  border-radius: 10px;
+  background: var(--Neutral-100, #fff);
+  /* CARD SHADOW */
+  box-shadow: 1px 5px 50px 0px rgba(84, 99, 122, 0.1);
+}
+#mobile-menu {
+  position: relative;
+}
